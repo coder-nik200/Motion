@@ -5,6 +5,8 @@ import Button from "./components/Button";
 import Content from "./components/Content";
 import Content2 from "./components/Content2";
 import MotionHooks from "./components/MotionHooks";
+import Layout from "./components/Layout";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
@@ -14,7 +16,9 @@ const App = () => {
       {/* <Button /> */}
       {/* <Content /> */}
       {/* <Content2 /> */}
-      <MotionHooks />
+      {/* <MotionHooks /> */}
+      {/* <Layout /> */}
+      <Navbar />
     </>
   );
 };
